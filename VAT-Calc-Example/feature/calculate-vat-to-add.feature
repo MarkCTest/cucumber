@@ -20,7 +20,7 @@ Feature: Calculate the VAT to be added for goods or services sold
      Given the business has sold 100KWh of energy
      And each KWh is charged at £0.14 without VAT
      When the Reduced VAT rate of 5% is applied 
-     Then the VAT to be charged is show as £147
+     Then the VAT to be charged is shown as £147
   
   Scenario Outline: The business sells several types of zero rated goods
      Given the business sells <goods> to home customers
