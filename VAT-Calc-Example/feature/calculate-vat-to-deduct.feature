@@ -32,3 +32,5 @@ Feature: Deduct the amount of VAT paid by the business for goods and services
      |  protective boots |     55  |       10      |
      |     insurance     |   1100  |        2      |
      | aircraft repair   |  12000  |        1      |
+
+#The VAT rate of EXEMPT is also valid but excluded from the above
