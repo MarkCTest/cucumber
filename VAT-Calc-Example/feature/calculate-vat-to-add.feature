@@ -33,3 +33,5 @@ Feature: Calculate the VAT to be added for goods or services sold
      | childrens clothes |  15  |    3   |
      | food              |   5  |    7   |
      | cycle helmet      |  30  |    2   |
+
+# The VAT rate of EXEMPT is also valid but excluded from the above
