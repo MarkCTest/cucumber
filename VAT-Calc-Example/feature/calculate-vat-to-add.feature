@@ -1,3 +1,4 @@
+@full_regression
 Feature: Calculate the VAT to be added for goods or services sold
   
   As a UK business owner providing goods and services to homes
@@ -8,7 +9,8 @@ Feature: Calculate the VAT to be added for goods or services sold
      Given the business is in the UK
      And is registered for VAT at the full rate
      And it is the 2015/2016 financial year
-  
+ 
+ @core_regression
   Scenario: The business sells general repair services
      Given the business has sold £5000 of repair services
      When the Standard VAT rate of 20% is applied
